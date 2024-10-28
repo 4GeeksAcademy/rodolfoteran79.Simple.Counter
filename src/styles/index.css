@@ -10,3 +10,64 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    margin: 0;
+  }
+  
+  .seconds-counter {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    border-radius: 10px;
+  }
+
+
+
+  .icon {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 2rem;
+  }
+  
+  
+  
+  .numbers {
+    display: flex;
+  }
+  
+  .digit-box {
+    background-color: #222;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  }
+  
+  .digit {
+    color: #fff;
+    font-size: 3rem;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  }  
